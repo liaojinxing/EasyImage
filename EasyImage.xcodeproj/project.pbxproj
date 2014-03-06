@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C748555218C81CF300C10345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748555118C81CF300C10345 /* Foundation.framework */; };
-		C748555718C81CF300C10345 /* EasyImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C748555618C81CF300C10345 /* EasyImage.h */; };
-		C748555918C81CF300C10345 /* EasyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C748555818C81CF300C10345 /* EasyImage.m */; };
+		C748555718C81CF300C10345 /* UIImage+Resize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C748555618C81CF300C10345 /* UIImage+Resize.h */; };
+		C748555918C81CF300C10345 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C748555818C81CF300C10345 /* UIImage+Resize.m */; };
 		C748556018C81CF300C10345 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748555F18C81CF300C10345 /* XCTest.framework */; };
 		C748556118C81CF300C10345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748555118C81CF300C10345 /* Foundation.framework */; };
 		C748556318C81CF300C10345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748556218C81CF300C10345 /* UIKit.framework */; };
@@ -35,7 +35,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C748555718C81CF300C10345 /* EasyImage.h in CopyFiles */,
+				C748555718C81CF300C10345 /* UIImage+Resize.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,8 @@
 		C748554E18C81CF300C10345 /* libEasyImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C748555118C81CF300C10345 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C748555518C81CF300C10345 /* EasyImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyImage-Prefix.pch"; sourceTree = "<group>"; };
-		C748555618C81CF300C10345 /* EasyImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyImage.h; sourceTree = "<group>"; };
-		C748555818C81CF300C10345 /* EasyImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyImage.m; sourceTree = "<group>"; };
+		C748555618C81CF300C10345 /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		C748555818C81CF300C10345 /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		C748555E18C81CF300C10345 /* EasyImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C748555F18C81CF300C10345 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C748556218C81CF300C10345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,8 +110,7 @@
 		C748555318C81CF300C10345 /* EasyImage */ = {
 			isa = PBXGroup;
 			children = (
-				C748555618C81CF300C10345 /* EasyImage.h */,
-				C748555818C81CF300C10345 /* EasyImage.m */,
+				C748557718C81DAC00C10345 /* Category */,
 				C748555418C81CF300C10345 /* Supporting Files */,
 			);
 			path = EasyImage;
@@ -141,6 +140,15 @@
 				C748556A18C81CF300C10345 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C748557718C81DAC00C10345 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C748555618C81CF300C10345 /* UIImage+Resize.h */,
+				C748555818C81CF300C10345 /* UIImage+Resize.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C748555918C81CF300C10345 /* EasyImage.m in Sources */,
+				C748555918C81CF300C10345 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
