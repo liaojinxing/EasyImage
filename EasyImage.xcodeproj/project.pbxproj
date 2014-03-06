@@ -12,10 +12,10 @@
 		C748555918C81CF300C10345 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C748555818C81CF300C10345 /* UIImage+Resize.m */; };
 		C748556018C81CF300C10345 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748555F18C81CF300C10345 /* XCTest.framework */; };
 		C748556118C81CF300C10345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748555118C81CF300C10345 /* Foundation.framework */; };
-		C748556318C81CF300C10345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748556218C81CF300C10345 /* UIKit.framework */; };
 		C748556618C81CF300C10345 /* libEasyImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C748554E18C81CF300C10345 /* libEasyImage.a */; };
 		C748556C18C81CF300C10345 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C748556A18C81CF300C10345 /* InfoPlist.strings */; };
 		C748556E18C81CF300C10345 /* EasyImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C748556D18C81CF300C10345 /* EasyImageTests.m */; };
+		C748557918C8207400C10345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C748557818C8207400C10345 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +49,10 @@
 		C748555818C81CF300C10345 /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		C748555E18C81CF300C10345 /* EasyImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C748555F18C81CF300C10345 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C748556218C81CF300C10345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C748556918C81CF300C10345 /* EasyImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyImageTests-Info.plist"; sourceTree = "<group>"; };
 		C748556B18C81CF300C10345 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C748556D18C81CF300C10345 /* EasyImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyImageTests.m; sourceTree = "<group>"; };
+		C748557818C8207400C10345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C748557918C8207400C10345 /* UIKit.framework in Frameworks */,
 				C748555218C81CF300C10345 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +71,6 @@
 			files = (
 				C748556018C81CF300C10345 /* XCTest.framework in Frameworks */,
 				C748556618C81CF300C10345 /* libEasyImage.a in Frameworks */,
-				C748556318C81CF300C10345 /* UIKit.framework in Frameworks */,
 				C748556118C81CF300C10345 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,9 +100,9 @@
 		C748555018C81CF300C10345 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C748557818C8207400C10345 /* UIKit.framework */,
 				C748555118C81CF300C10345 /* Foundation.framework */,
 				C748555F18C81CF300C10345 /* XCTest.framework */,
-				C748556218C81CF300C10345 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
