@@ -29,8 +29,7 @@ This library is a category of UIImage, so UIImage instances can call the methods
 
 ```
 UIImage *originalImage;
-UIImage *scaledImage = [originalImage scaleImageToSize:CGSizeMake(320, 480);
-
+UIImage *scaledImage = [originalImage scaleImageToSize:CGSizeMake(320, 480)];
 ```
     
 - Circular avatar:
@@ -42,4 +41,4 @@ UIImage *ellipseAvatar = [rectAvatar ellipseImageWithDefaultSetting];
 
 Other
 -----
-If you like it, please star this repo, thanks.
+If you like it, please star this repo, thanks. Waiting for your pull request.
