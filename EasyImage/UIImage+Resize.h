@@ -21,4 +21,15 @@
 /* Crop image in the rectangle*/
 - (UIImage *)cropImageInRect:(CGRect)rect;
 
+- (UIImage *)scaleImageToSize:(CGSize)size;
+
+- (UIImage *)gaussianBlurWithRadius:(CGFloat)radius;
+
+// make rectangle image to ellipse, usually used to show circular avatars.
+- (UIImage *)ellipseImageWithDefaultSetting;
+
+- (UIImage *)ellipseImage:(UIImage *)image
+                withInset:(CGFloat)inset
+              borderWidth:(CGFloat)width
+              borderColor:(UIColor *)color;
 @end
