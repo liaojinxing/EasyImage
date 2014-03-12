@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A59B4EA4-4966-41B9-B738-A02E9AA2DD15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasyImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>578B7B7A-A9EB-41DE-A303-CD69D787BF46</key>
+		<string>https://github.com/liaojinxing/EasyImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasyImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>578B7B7A-A9EB-41DE-A303-CD69D787BF46</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liaojinxing/EasyImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>578B7B7A-A9EB-41DE-A303-CD69D787BF46</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>578B7B7A-A9EB-41DE-A303-CD69D787BF46</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasyImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>

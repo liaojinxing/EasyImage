@@ -10,11 +10,15 @@
 
 @interface UIImage (Resize)
 
-//高度固定，等比缩放
-- (UIImage *)fixedHeightScaleAndClipToFillSize:(CGSize)destSize;
-//宽度固定，等比缩放
-- (UIImage *)fixedWidthScaleAndClipToFillSize:(CGSize)destSize;
-//截图
+/* Scale the image and clip it if it is too large.
+   Example: Destination size: (320, 480)
+   Origin image size: (160, 300)
+                                  scale                  clip
+   Process the image: (160, 300) --------> (320, 600) ---------> (320, 480)
+ */
+- (UIImage *)scaleAndClipToFillSize:(CGSize)destSize;
+
+/* Crop image in the rectangle*/
 - (UIImage *)cropImageInRect:(CGRect)rect;
 
 @end
